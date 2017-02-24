@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+    <!--MENU-->
+    <FR>
+        <home>Accueil</home>
+        <notext>Text absent -> accueil</notext>
+    </FR>
+    <EN>
+        <home>Home</home>
+        <notext>No text available -> accueil</notext>
+    </EN>
+    <FR>
+        <bio>Qui-suis je ?</bio>
+        <notext>Text absent -> bio</notext>
+    </FR>
+    <EN>
+        <bio>Who am I ?</bio>
+        <notext>No text available -> bio</notext>
+    </EN>
+    <FR>
+        <skills>Compétences</skills>
+        <notext>Text absent -> skills</notext>
+    </FR>
+    <EN>
+        <skills>Skills</skills>
+        <notext>No text available -> skills</notext>
+    </EN>
+    <FR>
+        <cv>CV</cv>
+        <notext>Text absent -> cv</notext>
+    </FR>
+    <EN>
+        <cv>Resume</cv>
+        <notext>No text available -> cv</notext>
+    </EN>
+    <FR>
+        <contact>Contact</contact>
+        <notext>Text absent -> contact</notext>
+    </FR>
+    <EN>
+        <contact>Contact</contact>
+        <notext>No text available -> contact</notext>
+    </EN>
+    <!--FIN MENU-->
+    <!--BLOCS TEXTE-->
+    <FR>
+        <blocHome><![CDATA[
+      <h2>Bienvenue sur mon espace</h2>
+  <p>J'ai créé cette page dans le but de vous présenter mon parcours, mes compétences et mes expériences professionnelles.</p>
+  <p>A 30 ans, je dispose de 5 ans d'expérience dans les technologies .Net.Je suis titulaire du titre d'expert informatique SUPINFO (bac +5), après avoir obtenu un DUT Informatique à l'IUT de Bayonne ainsi qu'une licence à l'université Bordeaux 1. Durant les 5 dernières années, j'ai travaillé en étroite collaboration avec des transporteurs mondiaux et dans le secteur de la logistique.</p>
+  <p class="highlight"><b>Avis aux recruteurs : Je suis à l'écoute de propositions notamment pour des missions à Tokyo au Japon, pays dans lequel je réside actuellement avec un visa vacances-travail. Après avoir pris connaissance de mes compétences, si mon profil vous intéresse, n'hésitez pas à <a class="lienContact" onclick="AfficherBloc('contact');return false;" href="#">me contacter</a>.</b></p>
+  <p>Julien</p>
+  <div id="lastUpdate">Dernière mise à jour : le 21/02/2017</div>
+  ]]>
+        </blocHome>
+    </FR>
+    <EN>
+        <blocHome><![CDATA[
+  <h2>Welcome to my page</h2>
+  <p>The purpose of this page is to present my career, my skills and professional experiences as an IT engineer.</p>
+  <p>Now aged 30, I have 5 years of experience working with .Net technologies. I own a Master of Science diploma in computer science (SUPINFO International University), after having obtained a Bachelor of Science and an Associate's Degree in the same field. During the last 5 years, I especially worked in the logistic field with worldwide carriers.</p>
+      <p class="highlight"><b>For recruiters : Currently in Tokyo, Japan, with a working-holiday visa, I'm listening to proposals around this area. If you're interested by my profile, please don't hesitate to <a class="lienContact" onclick="AfficherBloc('contact');return false;" href="#">contact me</a>.</b></p>
+  <p>Julien</p>
+  <div id="lastUpdate">Last update : 2/21/2017</div>
+  ]]>
+        </blocHome>
+    </EN>
+    <FR>
+        <blocSkills>
+            <![CDATA[
+ <h2>Du point de vue professionnel ...</h2>
+ <p>Concernant la programmation, je me suis spécialisé dans les technologies .Net. A plusieurs reprises, j'ai pu travailler sur des applications web n-tier en C# et VB.Net, interfacées avec divers types de bases de données Microsoft SQL Server et Mysql.
+  </p>
+  <p>Dans le cadre de projets professionnels et personnels, j'ai eu l'occasion d'utiliser d'autres technologies .Net, comme par exemple Entity Framework et LINQ pour la création de couches d'accès aux données, ou encore WCF pour la création d'applications orientées services. De plus, mes compétences ne se limitent pas aux système propriétaires : En effet, j'ai démarré ma première expérience en tant que développeur web avec l'utilisation du couple PHP/MySQL. Je suis également familier aux environnements UNIX et plus particulièrement GNU/Linux.</p>
+  <p>Bien qu'ayant choisi une orientation plus "Dev" que "IT", mes compétences ne se limitent pas qu'au développement : ma formation généraliste m'a permis de manipuler aussi bien les langages de programmation que la mise en place et la configuration de systèmes tels que des serveurs de messageries ou des bases de données. Curieux de nature et toujours en soif de nouvelles connaissances, j'ai choisi de suivre plusieurs formations Cisco durant ma scolarité, si bien que je dispose de bonnes connaissances de bases en configuration et équipements réseaux, atout non négligeable dans le domaine du web.</p>
+  <p>Au cours de mes expériences professionnelles, j'ai eu l'opportunité de travailler avec des équipes situées à l'étranger.  A cette occasion, j'ai su mettre en place les bonnes pratiques de travail au sein d'une équipe afin de mener à bien des développements de manière collaborative. Plutôt à l'aise en anglais, ce fût l'occasion pour moi de pratiquer la langue de Shakespeare dans un cadre professionnel.</p>
+  <p>Grâce à mes différentes expériences professionnelles, j'ai pu cumuler près de 5 ans d'expérience dans le web et les technologies .Net, principalement au service du domaine de la logistique. Ces expériences professionnelles m'ont permis d'être confronté à différentes problématiques dans des contextes très variés, mettant à l'épreuve ma capacité d'adaptation à de nouveaux environnements de travail et à de nouvelles technologies.</p>
+  <p>Pour plus de détails sur ma formation et mes expériences professionnelles, je vous invite à consulter <a class="lienCV" onclick="AfficherBloc('cv');return false;" href="#">mon CV</a>.</p>
+  ]]>
+        </blocSkills>
+    </FR>
+    <EN>
+        <blocSkills>
+            <![CDATA[
+  <h2>On the professional side ... </h2>
+  <p>About programming, I specialized into .Net langages.
+     Several times, I had the opportunity to work on n-tier web application in C# and VB.Net, interfaced with diverse types of databases (Microsoft SQL Server, MySQL, Access...)</p>
+  <p>Through professionnal and personnal projects, I also had the used other .Net APIs, such as Entity Framework and LINQ for data access, or WCF for SOA applications. Also, my skills are not limited to proprietary systems  : Indeed, I started with my first working experience as a web programmer using PHP and MySQL. I'm also familiar with UNIX environments and more specifically GNU/Linux.</p>
+  <p>Bien qu'ayant choisi une orientation plus "Dev" que "IT", mes compétences ne se limitent pas qu'au développement : ma formation généraliste m'a permis de manipuler aussi bien les langages de programmation que la mise en place et la configuration de systèmes tels que des serveurs de messageries ou des bases de données. Curieux de nature et toujours en soif de nouvelles connaissances, j'ai choisi de suivre plusieurs formations Cisco durant ma scolarité, si bien que je dispose de bonnes connaissances de bases en configuration et équipements réseaux, atout non négligeable dans le domaine du web.</p>
+  <p>Au cours de mes expériences professionnelles, j'ai eu l'opportunité de travailler avec des équipes situées à l'étranger.  A cette occasion, j'ai su mettre en place les bonnes pratiques de travail au sein d'une équipe afin de mener à bien des développements de manière collaborative. Plutôt à l'aise en anglais, ce fût l'occasion pour moi de pratiquer la langue de Shakespeare dans un cadre professionnel.</p>
+  <p>Grâce à mes différentes expériences professionnelles, j'ai pu cumuler près de 5 ans d'expérience dans le web et les technologies .Net, principalement au service du domaine de la logistique. Ces expériences professionnelles m'ont permis d'être confronté à différentes problématiques dans des contextes très variés, mettant à l'épreuve ma capacité d'adaptation à de nouveaux environnements de travail et à de nouvelles technologies.</p>
+  <p>Pour plus de détails sur ma formation et mes expériences professionnelles, je vous invite à consulter <a class="lienCV" onclick="AfficherBloc('cv');return false;" href="#">mon CV</a>.</p>
+  ]]>
+        </blocSkills>
+    </EN>
+    <FR>
+        <blocCV>
+            <![CDATA[
+  <h2>Ingénieur .Net, mais pas seulement</h2>
+  <p>Ayant principalement travaillé dans le cadre du web et sur .Net en entreprise, je tiens à souligner que je suis tout à fait prêt à mettre en application mes autres domaines de compétences. Je suis toujours en quête de nouveaux défis techniques et très désireux de découvrir de nouvelles perspectives dans mon domaine.</p>
+  <h3 class="sectionCV">Formation et diplômes</h3>
+  <span class="pdf"><a href="https://drive.google.com/open?id=0B5_z83u8Fr-LM3VsOElZSWZROWc" TARGET="_blank"><img id="img_cvPDF" alt="Télécharger le CV de Julien Inchausti au format PDF" src="images/boutonPDF_off.png" /></a></span>
+  <p class="intitule">2008/2010 - Supinfo International University - Bordeaux (33) - France</p>
+  <p class="detail">Ecole supérieure d'informatique (Master of Science - Bac +5)</p>
+  <p class="intitule">2007/2008 - Université Bordeaux I - Talence (33) - France</p>
+  <p class="detail">Licence informatique (Bac +3)</p>
+  <p class="intitule">2005/2007 - IUT de Bayonne Pays-Basque - Bayonne (64) - France</p>
+  <p class="detail">DUT en informatique (Bac +2)</p>
+  <p class="intitule">2004/2005 - Université de Pau et des Pays de l'Adour - Pau (64) - France</p>
+  <p class="detail">Première année de licence en math-informatique</p>
+  <p class="intitule">2004 - Lycée Maurice Ravel - Saint Jean de Luz (64) - France</p>
+  <p class="detail">Baccalauréat série scientifique</p>
+  <h3 class="sectionCV">Expériences professionnelles</h3>
+  <p class="intitule">Mai 2014 à Mai 2016 - Ingénieur d'études .Net - Sarenza - Paris (75)</p>
+  <p class="detail">Développement de tâches planifiées (batchs) permettant le traitement en back-office des commandes clients par le logisticien et les transporteurs, ouverture d'un site Suisse avec tout ce que cela comporte en terme de dédouanement (nouveaux processus à mettre en place)<br /><span class="techno"><u>Technologies :</u> C#, VS TFS 2013, SQL Server 2012, T-SQL (procédures stockées), Cycle en V, Scrum</span></p>
+  <p class="intitule">Juillet 2011 à Avril 2014 - Ingénieur d'études .Net - Crosslog - Paris (75)</p>
+  <p class="detail">Développement d'une plateforme webservices d'édition d'étiquettes multi-transporteur et interfaçage EDI (trackings, annonces colis...) avec divers transporteurs, refonte du SI transport, développement de flux spécifiques pour de gros comptes (Séphora, Marionnaud ...) <br /><span class="techno"><u>Technologies :</u> C#, MySQL, EPL/ZPL, MS SQL Server 2008, Visual Studio TFS 2012</span></p>
+  <p class="intitule">Octobre 2009 à Juin 2011 - Développeur .Net / Intégrateur - SolidPepper - Bidart (64)</p>,
+  <p class="detail">Développement d'un outil de gestion de données multi-utilisateurs (participation à la conduite du projet et gestion des méthodes de travail), refonte d'un outil e-commerce et réalisation de sites e-commerce, développement d'un outil de génération de factures en PDF, support utilisateur ... <br /><span class="techno"><u>Technologies :</u> ASP.Net, VB.Net, WCF, CSS, Javascript, composants DevExpress, MS SQL Server 2005/2008, Visual Studio 2008/2010, SVN ... </span></p>
+  <p class="intitule">Juillet 2009 à Septembre 2009 - Développeur .Net / Assistant chef de projet - Sport Invest Pro - Bidart (64)</p>
+  <p class="detail">Web design et gestion de contenu dans un environnement web 2.0, développement de nouvelles fonctionnalités, débugage, publipostage, support utilisateur ... <br /><span class="techno"><u>Technologies :</u> ASP.Net, C#, MS SQL Server 2008, Visual Studio Team System</span></p>
+  <p class="intitule">Décembre 2008 à Juin 2009 - Développeur .Net - AT Internet - Mérignac (33)</p>
+  <p class="detail">Développement d'une API d'alerte par flux RSS, développement d'outils en interne, débugage ... <br /><span class="techno"><u>Technologies :</u> ASP.Net, VB.Net, XML, XSLT, ASP.Net RSS Toolkit, MS SQL Server 2008, Visual Studio 2008, SVN ...</span></p>
+  <p class="intitule">Avril à Juin 2007 - Développeur - Ecole Supérieure des Technologies Industrielles Avancées - Bidart (64)</p>
+  <p class="detail">Installation et configuration de capteurs de mouvements Polhemus Liberty, dévelopemment d'une interface graphique avec Qt Designer afin de contrôler les mesures, dévelopemment d'une application client/serveur en Java pour le transfert des données vers une application graphique <br /><span class="techno"><u>Technologies :</u> Java, Qt Designer, capteurs Polhemus, Linux Ubuntu ... </span></p>
+  <h3 class="sectionCV">Compétences</h3>
+  <p class="intitule">Développement : </p>
+  <p class="detail">Langages .Net (ASP.Net, VB.Net, C#, WCF, LINQ), xHTML/CSS, Javascript/AJAX, Java, PHP</p>
+  <p class="intitule">Outils et composants :</p>
+  <p class="detail">Composants ASP.Net DevExpress, librairie AntiXSS, ASP.Net RSS Toolkit, SVN, Photoshop (bases)</p>
+  <p class="intitule">Bases de données :</p>
+  <p class="detail">Microsoft SQL Server, MySQL, Microsoft Access</p>
+  <p class="intitule">Réseaux : </p>
+  <p class="detail">Installation et configuration de LAN, notions de routage, titulaire de la certification CCNA 1 de Cisco Systems</p>
+  <p class="intitule">Systèmes d'exploitation :</p>
+  <p class="detail">Microsoft Windows, Linux, Mac OS X</p>
+  <h3 class="sectionCV">Langues</h3>
+  <p class="intitule">Anglais :</p>
+  <p class="detail">Lu, écrit, parlé (score TOEIC : 960/990), anglais technique</p>
+  <p class="intitule">Espagnol :</p>
+  <p class="detail">Niveau scolaire</p>
+  <p class="intitule">Japonais :</p>
+  <p class="detail">Niveau débutant (conversationnel - JLPT N4)</p>
+  <h3 class="sectionCV">Divers</h3>
+  <p class="intitule">Loisirs :</p>
+  <p class="detail">Jeux vidéo, séries TV, musique (pratique de la batterie), tennis</p>
+  <p class="intitule">Autres :</p>
+  <p class="detail">Possède le permis B</p>
+    ]]>
+        </blocCV>
+    </FR>
+    <EN>
+        <blocCV>
+            <![CDATA[
+  <h2>Not only a .Net engineer</h2>
+  <p>Ayant principalement travaillé dans le cadre du web et sur .Net en entreprise, je tiens à souligner que je suis tout à fait prêt à mettre en application mes autres domaines de compétences. Je suis toujours en quête de nouveaux défis techniques et très désireux de découvrir de nouvelles perspectives dans mon domaine.</p>
+  <h3 class="sectionCV">Formation et diplômes</h3>
+  <span class="pdf"><a href="docs/CV.pdf" TARGET="_blank"><img id="img_cvPDF" alt="Télécharger le CV de Julien Inchausti au format PDF" src="images/boutonPDF_off.png" /></a></span>
+  <p class="intitule">2008/2010 - Supinfo International University - Bordeaux (33) - France</p>
+  <p class="detail">Ecole supérieure d'informatique (Master of Science - Bac +5)</p>
+  <p class="intitule">2007/2008 - Université Bordeaux I - Talence (33) - France</p>
+  <p class="detail">Licence informatique (Bac +3)</p>
+  <p class="intitule">2005/2007 - IUT de Bayonne Pays-Basque - Bayonne (64) - France</p>
+  <p class="detail">DUT en informatique (Bac +2)</p>
+  <p class="intitule">2004/2005 - Université de Pau et des Pays de l'Adour - Pau (64) - France</p>
+  <p class="detail">Première année de licence en math-informatique</p>
+  <p class="intitule">2004 - Lycée Maurice Ravel - Saint Jean de Luz (64) - France</p>
+  <p class="detail">Baccalauréat série scientifique</p>
+  <h3 class="sectionCV">Expériences professionnelles</h3>
+  <p class="intitule">Mai 2014 à Mai 2016 - Ingénieur d'études .Net - Sarenza - Paris (75)</p>
+  <p class="detail">Développement de tâches planifiées (batchs) permettant le traitement en back-office des commandes clients par le logisticien et les transporteurs, ouverture d'un site Suisse avec tout ce que cela comporte en terme de dédouanement (nouveaux processus à mettre en place)<br /><span class="techno"><u>Technologies :</u> C#, VS TFS 2013, SQL Server 2012, T-SQL (procédures stockées), Cycle en V, Scrum</span></p>
+  <p class="intitule">Juillet 2011 à Avril 2014 - Ingénieur d'études .Net - Crosslog - Paris (75)</p>
+  <p class="detail">Développement d'une plateforme webservices d'édition d'étiquettes multi-transporteur et interfaçage EDI (trackings, annonces colis...) avec divers transporteurs, refonte du SI transport, développement de flux spécifiques pour de gros comptes (Séphora, Marionnaud ...) <br /><span class="techno"><u>Technologies :</u> C#, MySQL, EPL/ZPL, MS SQL Server 2008, Visual Studio TFS 2012</span></p>
+  <p class="intitule">Octobre 2009 à Juin 2011 - Développeur .Net / Intégrateur - SolidPepper - Bidart (64)</p>,
+  <p class="detail">Développement d'un outil de gestion de données multi-utilisateurs (participation à la conduite du projet et gestion des méthodes de travail), refonte d'un outil e-commerce et réalisation de sites e-commerce, développement d'un outil de génération de factures en PDF, support utilisateur ... <br /><span class="techno"><u>Technologies :</u> ASP.Net, VB.Net, WCF, CSS, Javascript, composants DevExpress, MS SQL Server 2005/2008, Visual Studio 2008/2010, SVN ... </span></p>
+  <p class="intitule">Juillet 2009 à Septembre 2009 - Développeur .Net / Assistant chef de projet - Sport Invest Pro - Bidart (64)</p>
+  <p class="detail">Web design et gestion de contenu dans un environnement web 2.0, développement de nouvelles fonctionnalités, débugage, publipostage, support utilisateur ... <br /><span class="techno"><u>Technologies :</u> ASP.Net, C#, MS SQL Server 2008, Visual Studio Team System</span></p>
+  <p class="intitule">Décembre 2008 à Juin 2009 - Développeur .Net - AT Internet - Mérignac (33)</p>
+  <p class="detail">Développement d'une API d'alerte par flux RSS, développement d'outils en interne, débugage ... <br /><span class="techno"><u>Technologies :</u> ASP.Net, VB.Net, XML, XSLT, ASP.Net RSS Toolkit, MS SQL Server 2008, Visual Studio 2008, SVN ...</span></p>
+  <p class="intitule">Avril à Juin 2007 - Développeur - Ecole Supérieure des Technologies Industrielles Avancées - Bidart (64)</p>
+  <p class="detail">Installation et configuration de capteurs de mouvements Polhemus Liberty, dévelopemment d'une interface graphique avec Qt Designer afin de contrôler les mesures, dévelopemment d'une application client/serveur en Java pour le transfert des données vers une application graphique <br /><span class="techno"><u>Technologies :</u> Java, Qt Designer, capteurs Polhemus, Linux Ubuntu ... </span></p>
+  <h3 class="sectionCV">Compétences</h3>
+  <p class="intitule">Développement : </p>
+  <p class="detail">Langages .Net (ASP.Net, VB.Net, C#, WCF, LINQ), xHTML/CSS, Javascript/AJAX, Java, PHP</p>
+  <p class="intitule">Outils et composants :</p>
+  <p class="detail">Composants ASP.Net DevExpress, librairie AntiXSS, ASP.Net RSS Toolkit, SVN, Photoshop (bases)</p>
+  <p class="intitule">Bases de données :</p>
+  <p class="detail">Microsoft SQL Server, MySQL, Microsoft Access</p>
+  <p class="intitule">Réseaux : </p>
+  <p class="detail">Installation et configuration de LAN, notions de routage, titulaire de la certification CCNA 1 de Cisco Systems</p>
+  <p class="intitule">Systèmes d'exploitation :</p>
+  <p class="detail">Microsoft Windows, Linux, Mac OS X</p>
+  <h3 class="sectionCV">Langues</h3>
+  <p class="intitule">Anglais :</p>
+  <p class="detail">Lu, écrit, parlé (score TOEIC : 960/990), anglais technique</p>
+  <p class="intitule">Espagnol :</p>
+  <p class="detail">Niveau scolaire</p>
+  <p class="intitule">Japonais :</p>
+  <p class="detail">Niveau débutant (conversationnel - JLPT N4)</p>
+  <h3 class="sectionCV">Divers</h3>
+  <p class="intitule">Loisirs :</p>
+  <p class="detail">Jeux vidéo, séries TV, musique (pratique de la batterie), tennis</p>
+  <p class="intitule">Autres :</p>
+  <p class="detail">Possède le permis B</p>
+  ]]>
+        </blocCV>
+    </EN>
+    <FR>
+        <blocContact>
+            <![CDATA[
+  <h2>N'hésitez pas à me contactez</h2>
+  <p>Que ce soit par e-mail ou par téléphone, via le <a class="contactForm" href="#">formulaire de contact</a> ou les réseaux sociaux dont je fais partie, vous trouverez forcément le moyen qui vous convient pour me contacter.</p>
+  <h3 class="sectionCV">Mes coordonnées</h3>
+  <p class="highlight">Julien INCHAUSTI<br />21 - 6 Haraikatamachi, Shinjuku-ku<br />Tokyo 162-0841 - JAPON</p>
+  <p class="highlight"><a href="mailto:julien.inchausti@supinfo.com">julien.inchausti@supinfo.com</a></p>
+  <h3 class="sectionCV">Réseaux sociaux</h3>
+  <ul id="nav-logos">
+  <li class="item-linkedin">
+  <a href="http://www.linkedin.com/in/julieninchausti" target="_blank" title="LinkedIn" >Contact LinkedIn</a>
+  </li>
+  <li class="item-viadeo">
+  <a href="http://www.viadeo.com/fr/profile/julien.inchausti" target="_blank" title="Viadeo">Contact Viadeo</a>
+  </li>
+  <li class="item-skype">
+  <a href="skype:julien.inchausti?call" target="_blank" title="Skype" >Contact Skype</a>
+  </li>
+  </ul>
+  ]]>
+        </blocContact>
+    </FR>
+    <!--FIN BLOC TEXTE-->
+    <!--FORMULAIRE DE CONTACT-->
+    <FR>
+        <contactForm>Formulaire de contact</contactForm>
+    </FR>
+    <FR>
+        <contactFormSousTitre>Veuillez laisser vos coordonnées</contactFormSousTitre>
+    </FR>
+    <FR>
+        <name>Nom</name>
+    </FR>
+    <FR>
+        <email>Email</email>
+    </FR>
+    <FR>
+        <subject>Sujet</subject>
+    </FR>
+    <FR>
+        <theme>Choix du sujet</theme>
+    </FR>
+    <FR>
+        <question>Question</question>
+    </FR>
+    <FR>
+        <proposition>Proposition</proposition>
+    </FR>
+    <FR>
+        <suggestion>Suggestion</suggestion>
+    </FR>
+    <FR>
+        <other>Autre</other>
+    </FR>
+    <FR>
+        <message>Message</message>
+    </FR>
+    <FR>
+        <merci>Votre message a été envoyé. Merci!</merci>
+    </FR>
+    <FR>
+        <submit>Envoyer</submit>
+    </FR>
+    <FR>
+        <reset>Réinitialiser</reset>
+    </FR>
+    <FR>
+        <captchaWrong>Le résultat est incorrect!</captchaWrong>
+    </FR>
+    <FR>
+        <nameWrong>Le champ 'nom' est vide ou trop court!</nameWrong>
+    </FR>
+    <FR>
+        <emailWrongLength>Le champ 'email' est vide ou trop court!</emailWrongLength>
+    </FR>
+    <FR>
+        <invalidEmail>Votre email est invalide!</invalidEmail>
+    </FR>
+    <FR>
+        <wrongSubject>Vous devez choisir un sujet!</wrongSubject>
+    </FR>
+    <FR>
+        <messageWrong>Le champ 'message' est vide ou trop court!</messageWrong>
+    </FR>
+     <FR>
+        <newMailTitle>Nouveau message via le formulaire de contact</newMailTitle>
+    </FR>
+    <FR>
+        <newMailVia>via le formulaire de contact</newMailVia>
+    </FR>
+    <FR>
+        <newMailTag>[SITE PERSO]</newMailTag>
+    </FR>
+</lang>

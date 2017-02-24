@@ -1,0 +1,337 @@
+body {
+    background : #FFFFFF url(../images/bg.jpg) no-repeat fixed center top;
+    font-family : Verdana, sans-serif;
+    color:#5E5E5E;
+    margin:0;
+}
+
+a img{
+    border:none;
+}
+
+#page{
+    width:800px;
+    margin:0 auto;
+}
+
+
+#header h1 a{
+    background: #FFFFFF url(../images/logo.jpg) no-repeat scroll 0 0;
+    width:288px;
+    height: 92px;
+    display:block;
+}
+
+.invisible{
+    position:absolute;
+    top:-3000em;
+}
+
+
+#contenu{
+    background-color:#FFFFFF;
+    min-height:400px;
+    border-right:1px solid #FDE1E1;
+    border-left:1px solid #FDE1E1;
+    margin-bottom:115px;
+}
+
+#contenu h2{
+    color:#AD1414;
+    font-size:1.15em;
+    margin:10px;
+}
+
+#contenu p{
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    font-size:0.82em;
+    margin:15px 20px;
+    padding:0;
+}
+
+#contenu p.highlight{
+    color:#AD1414;
+}
+
+/* Styles for the entire LavaLamp menu */
+#menu{
+    height:25px;
+    margin:0;
+    overflow:hidden;
+    padding:0 15px;
+    position:relative;
+    top:40px;
+    width:430px;
+    float:right;
+}
+
+/* Force the list to flow horizontally */
+#menu li {
+    float: left;
+    list-style: none;
+}
+
+/* Represents the background of the highlighted menu-item. */
+#menu  li.back {
+    background: url("../images/back-menu.png") no-repeat right -25px;
+    width: 9px;
+    height: 25px;
+    z-index: 8;
+    position: absolute;
+}
+#menu li.back .left {
+    background: url("../images/back-menu.png") no-repeat top left;
+    height: 25px;
+    margin-right: 9px;
+}
+/* Styles for each menu-item. */
+#menu li a {
+    position: relative; overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold 12px arial;
+    color: #3f3c3c; outline: none;
+    text-align: center;
+    height: 25px; top: 5px;
+    z-index: 10; letter-spacing: 0;
+    float: left; display: block;
+    margin: auto 10px;
+}
+
+
+#bottom{
+    background: url("../images/gazon.png") repeat-x;
+    position:fixed;
+    width:100%;
+    overflow:hidden;
+    height:115px;
+    bottom:0;
+    z-index:10;
+}
+
+h1,h2,h3{
+    font-size: 1em;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+}
+
+h3.sectionCV{
+    border-bottom:2px solid #CC9999;
+    color : #3f3c3c;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    font-size:1.03em;
+    font-weight:bold;
+    margin:10px 20px 10px 20px;
+    padding:0 0 0 10px;
+}
+
+.blocTexte a{
+    color : #AD1414;
+    text-decoration:underline;
+}
+#bloc_accueil #lastUpdate{
+    float:right;
+    margin-right:20px;
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    font-size:0.82em;
+}
+
+#bloc_cv.blocTexte p.intitule{
+    font-family:"Trebuchet MS",Helvetica,sans-serif;
+    margin-bottom:0px;
+    font-size:0.82em;
+    color:#AD1414;
+    font-weight:bold;
+}
+
+#bloc_cv.blocTexte p.intitule:before{
+    content: "\00BB \0020";
+}
+
+#bloc_cv.blocTexte p.detail{
+    margin:0px 20px 10px 0px;
+    padding-left:115px;
+}
+
+
+#bloc_cv.blocTexte span.techno{
+    font-style:italic;
+}
+
+#bloc_cv.blocTexte span.pdf{
+    float:right;
+    margin-right:20px;
+}
+
+#nav-logos{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:0px;
+    padding:10px 0px 0px 10px;
+}
+
+#nav-logos li{
+    float:left;
+    position:relative;
+    width:81px;
+    height:72px;
+}
+
+#nav-logos a, #nav-logos a:visited,
+#nav-logos a, #nav-logos a:hover{
+    border:none;
+    display:block;
+    margin:0 auto;
+    position:relative;
+    text-indent:-3000em;
+    z-index:2;
+}
+
+#nav-logos li.item-fb a{
+    background:url("../logos/logo-fb.png") no-repeat;
+    display:block;
+    width:59px;
+    height:59px;
+}
+
+#nav-logos li.item-skype a{
+    background:url("../logos/logo-skype.png") no-repeat;
+    display:block;
+    width:59px;
+    height:59px;
+}
+
+#nav-logos li.item-linkedin a{
+    background:url("../logos/logo-linkedin.png") no-repeat;
+    display:block;
+    width:59px;
+    height:59px;
+}
+
+#nav-logos li.item-viadeo a{
+    background:url("../logos/logo-viadeo.png") no-repeat;
+    display:block;
+    width:59px;
+    height:59px;
+}
+
+#nav-logos li img.shadow {
+    bottom:0;
+    left:0;
+    margin:0 auto;
+    position:absolute;
+    z-index:1;
+}
+
+#nav-logos li img.shadow {
+    bottom:0;
+    left:0;
+    margin:0 auto;
+    position:absolute;
+    z-index:1;
+}
+
+/* FORMULAIRE DE CONTACT */
+
+#mask {
+    background-color:#000;
+    display:none;
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:9000;
+}
+
+#main-container{
+    width:400px;
+    margin:0px auto;
+    left:50%;
+    margin-left:-200px;
+    position:absolute;
+    z-index:9999;
+    top:90px;
+    display:none;
+}
+
+#main-container #form-container #close{
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+#form-container{
+    background-color:#f5f5f5;
+    padding:15px;
+    position:relative;
+}
+
+#form-container h1{
+    margin-left:10px;
+}
+
+td{
+    white-space:nowrap;
+}
+
+
+h1{
+    color:#777777;
+    font-size:22px;
+    font-weight:normal;
+    text-transform:uppercase;
+    margin-bottom:5px;
+}
+
+h2{
+    font-weight:normal;
+    font-size:10px;
+
+    text-transform:uppercase;
+
+    color:#aaaaaa;
+    margin-bottom:15px;
+
+    border-bottom:1px solid #eeeeee;
+    margin-bottom:15px;
+    padding-bottom:10px;
+}
+
+label{
+    text-transform:uppercase;
+    font-size:10px;
+    font-family:Tahoma,Arial,Sans-serif;
+}
+
+textarea{
+    color:#404040;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+td > button{
+    text-indent:8px;
+}
+
+.error{
+    background-color:#AB0000;
+    color:white;
+    font-size:10px;
+    font-weight:bold;
+    margin-top:10px;
+    padding:10px;
+    text-transform:uppercase;
+    width:240px;
+}
+
+#loading{
+    position:relative;
+    bottom:9px;
+    visibility:hidden;
+}
+
+
+
